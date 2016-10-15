@@ -2,9 +2,7 @@
 
 ## 1. 账户验证与注册
 
-### 1.1 登录验证
-
-  
+### 1.1 登录验证  
 
 **请求地址** `http://<ThinkSNS站点域名>/index.php?app=public&mod=Passport&act=doLogin`
 
