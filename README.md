@@ -2,9 +2,8 @@
 
 ## 1. 账户验证与注册
 
-## 1.1 登录验证
+### 1.1 登录验证
 
----
 
 **请求地址** `http://<ThinkSNS站点域名>/index.php?app=public&mod=Passport&act=doLogin`
 
@@ -22,13 +21,15 @@ POST 数据 | login_remember | 记住用户名 ( 0 / 1 )
 
 ---
 
-**cURL请求示范**
+### cURL请求示范
 
 ```bash
 curl "http://demo.acgdraw.com/index.php?app=public&mod=Passport&act=doLogin" -H "Cookie: TS4_TSV4_ACTIVE_TIME=1476527241;" -H "Referer: http://demo.acgdraw.com/" --data "login_email=test"%"40example.com&login_password=12345678&login_remember=1" --compressed
 ```
 
 ---
+
+### 请求返回值
 
 **请求成功返回**
 
@@ -40,7 +41,7 @@ curl "http://demo.acgdraw.com/index.php?app=public&mod=Passport&act=doLogin" -H 
 }
 ```
 
-**请求失败返回**
+**帐号或密码错误**
 
 ```json
 {
