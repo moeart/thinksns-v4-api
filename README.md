@@ -5,13 +5,14 @@
 ### 1.1 登录验证
 
 
+
 **请求地址** `http://<ThinkSNS站点域名>/index.php?app=public&mod=Passport&act=doLogin`
 
 **请求参数列表**
 
 请求类型 | 参数名 | 参数值
 -------- | ------ | -------
-HTTP 请求头 | Cookie | TS4_TSV4_ACTIVE_TIME=@10位Unix时间轴@;
+HTTP 请求头 | Cookie | TS4_TSV4_ACTIVE_TIME=<10位Unix时间轴>;
 HTTP 请求头 | Referer | `http://<ThinkSNS站点域名>/index.php`
 POST 数据 | login_email | 用户 E-Mail
 POST 数据 | login_password | 用户密码
