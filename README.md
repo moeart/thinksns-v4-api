@@ -4,7 +4,7 @@
 
 ### 1.1 登录验证
 
-
+  
 
 **请求地址** `http://<ThinkSNS站点域名>/index.php?app=public&mod=Passport&act=doLogin`
 
